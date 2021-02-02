@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crafty SUPERHERO</title>
+<link rel="stylesheet" href="style.css">
+<script src="fabric.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style>
+    .body_backgorund 
+{
+    background-image: url("avenger_bg.jpg");
+    background-position: center;
+	background-size: cover;
+	
+}
+#myCanvas
+{
+    border-width:10px;
+    background-color: white; 
+    border-style:ridge;
+
+}
+
+h2
+{
+	background: #337ab7;
+	color: white;
+	border-radius: 10px;
+	width: 200px;
+	padding: 5px;
+ }
+h3
+{
+	display: inline-block;
+}
+span
+{
+	font-size: 22px;
+	color: white;
+}
+a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+#download
+{
+	background: #5bc0de;
+	float: left;
+	margin-top: 25px;
+	padding: 10px;
+	border-radius: 10px;
+}
+#head_info
+{
+	background: #d9534f;
+	width: 600px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+body{
+	color:white;
+	font-size: medium;
+}
+img{
+	width:70%;
+	height: 70%;
+}
+#duper{
+	width:40px;
+	height:40px;
+}
+#m{
+	display: inline-block;
+}
+#URL_img_LIVE{
+	color:black;
+}
+div{
+	background-color:orangered
+}
+</style>
+</head>
+
+<body class="body_backgorund">
+	<center>
+		<h2 class="btn-primary">Crafty SUPERHERO</h2>
+
+		<div id="head_info" class="btn-danger">
+			<h3>Current Width  = <span id="current_width">70</span></h3>
+			<h3>Current Height  = <span id="current_height">70</span></h3>
+		</div>
+
+		<canvas width="800" height="600" id="myCanvas"></canvas>
+		<br>
+
+
+
+<img src="CONTROLS.png">
+<br> <br> 
+<div>
+
+<h3>Custom Images </h3>  <span class="badge badge-success">NEW</span>
+
+
+</center>
+
+	
+	<center>
+	
+	<span><input type="text" placeholder="Add URL" id="URL_img_LIVE">
+
+<img id="duper" onclick="YOURSUPERDUPERHERO()" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAACVBMVEX///8AAAB/f39J4Y+kAAABvElEQVR4nO3bMXLDMAwAQQf/f3T6WNIQoMgcOLd1ClwRW6bAz0eSJEmSJEmSJEnSGX4u/PdMJYbQGEJjCI0hNIbQGEJjCI0hNIbQGEJjCI0hNIbQGEJjCI0hNIbQGEJjCI0hNIbQGEJjCI0hNPSQGP1DeEgMD8MOifFh0CGRGIYcEplhwCGRGoYbErlhsCGRHIYaEtlhoCGRHoYZEvlhkCFRGIYYEpVhgCFRGoYXErVhcCFRHIYW8reja8hXR9OQ746eIRcdLUOuOjqGXHY0DLnu6Bdy09Eu5K6jW8htR7OQ+45eIQ8drUKeOjqFPHY0CnnumHJKx9aQlR07Q5Z2bAxZ27EvZHHHtpDVHbtClndsClnfsSdkQ4chuJI9Icf8s5/z8XvOF+I5jyjnPDSe8xh/zg+rc37qvnX4QPDKcRDCGwd0DC8cmULMH2JTTL9WwJh90cMx+eoNZO5lKMnU62mUmYUBlokVDpj6Ug1Nec0Jp7p4xlNcBQSqLWcSldZlkSoLzEyFlXKo/JI/VfraBVb2IgxX8moSWO6yGFnq+h5a5kIlW+KKK9z4pWO64WvgkiRJkiRJkiRJkkB+AUT3EakakSD8AAAAAElFTkSuQmCC"></center>
+
+
+	<script src="main.js"></script>
+	</body>
+</html>
